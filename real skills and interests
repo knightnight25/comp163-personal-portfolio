@@ -3,3 +3,10 @@ skills_to_learn = {"Penetration Testing", "Data structures", "Git", "Web design"
 career_interests = {"Cyberseurity analyst", "Security Engineer", "Cybersecurity consultant", "Computational Neuroscientist"}
 hobbies = {"Gaming", "Napping", "Reading", "Watching TV", "Music"}
 entertainment_backlog = {"The Secret Lives of Mormon Wives", "Demon Slayer", "Baddies", "Wednesday", "Criminal Minds"}
+
+print("=== PERSONAL DEVELOPMENT ===")
+print(f"Current Skills: {current_skills}")
+print(f"Learning Goals: {skills_to_learn}")
+print(f"Career Interests: {career_interests}")
+print(f"Skills Currently Have: {len(current_skills)}")
+print(f"Skills Want to Learn: {len(skills_to_learn)}\n")
