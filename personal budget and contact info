@@ -1,0 +1,9 @@
+monthly_budget = {"Food": 200, "Entertainment": 200, "Books": 50, "Transportation": 50}
+contact_directory = {"Mom": "704-555-0199", "Roommate": "336-555-7821", "Academic Advisor": "336-334-5000"}
+total_monthly_budget = sum(monthly_budget.values())
+daily_food_budget = round(monthly_budget.get("Food", 0) / 30, 2)
+annual_budget_projection = total_monthly_budget * 12
+study_cost_per_hour = round(monthly_budget.get("Books", 0) / total_study_hours, 2)
+emergency_contact = ("Me", "Kami", "704-222-444")
+home_address = ("456 Oak Street", "Charlotte, NC", "28202")
+instagram_info = ("Instagram", "@kami._.crews", 337)
