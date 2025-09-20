@@ -1,5 +1,5 @@
 current_courses = ["COMP 163", "COMP 390", "COMP 180", "COMP 121", "MATH 132"]
-completed_courses = ["English", "Biology" "Calculus", "Spanish II", "World History"]
+completed_courses = ["English", "Biology", "Calculus", "Spanish II", "World History"]
 credit_hours = {"COMP 163": 3, "COMP 390": 3, "COMP 180": 3, "COMP 121": 1, "MATH 132": 4}
 gpa_history = [3.2, 3.4, 3.5, 4.0]
 
@@ -15,3 +15,17 @@ completed_course_count = len(completed_courses)
 total_study_hours = sum(study_hours_per_subject.values())
 academic_load = total_credits + total_study_hours
 study_cost_per_hour = round(monthly_budget.get("Books", 0) / total_study_hours, 2)
+
+print("=== ACADEMIC PROFILE ===")
+print(f"Current Semester: {total_credits} credits across {len(current_courses)} courses")
+print(f"Cumulative GPA: {cumulative_gpa}")
+print(f"Weekly Study Time: {total_study_hours} hours")
+print(f"Academic Investment: ${study_cost_per_hour} per study hour\n")
+
+print("Current Courses:")
+print(f"{current_courses[0]} - {credit_hours["COMP 163"]} credits - {course_professors["COMP 163"]} - {course_rooms["COMP 163"]}")
+print(f"{current_courses[1]} - {credit_hours["COMP 390"]} credits - {course_professors["COMP 390"]} - {course_rooms["COMP 390"]}")
+print(f"{current_courses[2]} - {credit_hours["COMP 180"]} credits - {course_professors["COMP 180"]} - {course_rooms["COMP 180"]}")
+print(f"{current_courses[3]} - {credit_hours["COMP 121"]} credits - {course_professors["COMP 121"]} - {course_rooms["COMP 121"]}")
+print(f"{current_courses[4]} - {credit_hours["MATH 132"]} credits - {course_professors["MATH 132"]} - {course_rooms["MATH 132"]}")
+print()
