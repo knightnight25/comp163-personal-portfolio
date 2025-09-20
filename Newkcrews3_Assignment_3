@@ -12,3 +12,19 @@ birthday = ("Birthday", "11", "25", "2005")
 
 total_followers = twitter_info[2] + instagram_info[2]
 
+
+print("================================================================")
+print(" ")
+print("             PERSONAL ACADEMIC & LIFE PORTFOLIO")
+print(" ")
+print("================================================================")
+print(" ")
+print(f"Student: \n{full_name} | Email: {student_email}")
+print(f"From: {hometown} | Graduating: {graduation_semester}")
+print(f"Major: {major}\n")
+
+print("=== CONNECTIONS & CONTACTS ===")
+print(f"Emergency Contatct: {emergency_contact[1]} ({emergency_contact[0]}) - {emergency_contact[2]}")
+print(f"Home Address: {home_address[0]}, {home_address[1]}, {home_address[2]}")
+print(f"Social Media Presence: {total_followers} followers across 2 platforms")
+print(f"Key Contacts: {len(contact_directory)} people in directory\n")
