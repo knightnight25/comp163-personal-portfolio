@@ -1,0 +1,17 @@
+current_courses = ["COMP 163", "COMP 390", "COMP 180", "COMP 121", "MATH 132"]
+completed_courses = ["English", "Biology" "Calculus", "Spanish II", "World History"]
+credit_hours = {"COMP 163": 3, "COMP 390": 3, "COMP 180": 3, "COMP 121": 1, "MATH 132": 4}
+gpa_history = [3.2, 3.4, 3.5, 4.0]
+
+course_professors = {"COMP 163": "Prof. Rhodes", "COMP 390": "Prof. Pioro", "COMP 180": "Prof. Pioro", "COMP 121": "Prof. Rhodes", "MATH 132": "Prof. Johnson"}
+course_rooms = {"COMP 163": "M-Eric 300", "COMP 390": "Online", "COMP 180": "M-Eric 200", "COMP 121": "Graham 210", "MATH 132": "Online"}
+monthly_budget = {"Food": 200, "Entertainment": 200, "Books": 50, "Transportation": 50}
+study_hours_per_subject = {"Programming": 10, "Math": 8, "Logic": 4, "Freshman colloquium": 3, "Social implications": 2}
+contact_directory = {"Mom": "704-555-0199", "Roommate": "336-555-7821", "Academic Advisor": "336-334-5000"}
+
+total_credits = sum(credit_hours.values())
+cumulative_gpa = round((sum(gpa_history) / 4))
+completed_course_count = len(completed_courses)
+total_study_hours = sum(study_hours_per_subject.values())
+academic_load = total_credits + total_study_hours
+study_cost_per_hour = round(monthly_budget.get("Books", 0) / total_study_hours, 2)
