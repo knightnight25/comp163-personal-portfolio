@@ -7,3 +7,17 @@ study_cost_per_hour = round(monthly_budget.get("Books", 0) / total_study_hours, 
 emergency_contact = ("Me", "Kami", "704-222-444")
 home_address = ("456 Oak Street", "Charlotte, NC", "28202")
 instagram_info = ("Instagram", "@kami._.crews", 337)
+
+print("=== FINANCIAL OVERVIEW ===")
+print(f"Monthly Budget: ${monthly_budget}")
+print(f"Food: ${monthly_budget.get('Food', 0)} (${daily_food_budget}/day)")
+print(f"Entertainment: ${monthly_budget.get('Entertainment', 0)}")
+print(f"Books: ${monthly_budget.get('Books', 0)}")
+print(f"Transportation: ${monthly_budget.get('Transportation', 0)}")
+print(f"Annual Projection: ${annual_budget_projection}\n")
+
+print("=== CONNECTIONS & CONTACTS ===")
+print(f"Emergency Contatct: {emergency_contact[1]} ({emergency_contact[0]}) - {emergency_contact[2]}")
+print(f"Home Address: {home_address[0]}, {home_address[1]}, {home_address[2]}")
+print(f"Social Media Presence: {total_followers} followers across 2 platforms")
+print(f"Key Contacts: {len(contact_directory)} people in directory\n")
