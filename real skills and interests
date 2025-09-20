@@ -1,0 +1,5 @@
+current_skills = {"Python basics", "Java", "Problem solving", "Time management", "Linux Basics"}
+skills_to_learn = {"Penetration Testing", "Data structures", "Git", "Web design", "Welding"}
+career_interests = {"Cyberseurity analyst", "Security Engineer", "Cybersecurity consultant", "Computational Neuroscientist"}
+hobbies = {"Gaming", "Napping", "Reading", "Watching TV", "Music"}
+entertainment_backlog = {"The Secret Lives of Mormon Wives", "Demon Slayer", "Baddies", "Wednesday", "Criminal Minds"}
